@@ -4,34 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Inpainting</title>
-    <style>
-        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
-        canvas { border: 1px solid #ddd; }
-        #loading-spinner { display: none; }
-    </style>
+    <link rel="stylesheet" href="static/css/styles.css">
 </head>
 <body>
     <div class="container">
         <h1>Image Inpainting</h1>
-        <form id="inpainting-form" enctype="multipart/form-data">
+        <form id="processing-form" enctype="multipart/form-data">
             <label for="image">Select Image:</label>
             <input type="file" id="image" name="image" accept="image/*" required>
             <br><br>
             <label for="brush-size">Brush Size:</label>
             <input type="range" id="brush-size" min="5" max="50" value="20">
             <br><br>
-            <canvas id="image-canvas"></canvas>
+            <canvas id="image-canvas" width="800" height="600"></canvas>
             <canvas id="mask-canvas" style="display:none;"></canvas>
             <br><br>
-            <button type="button" id="undo-button">Undo</button>
-            <button type="button" id="clear-button">Clear Mask</button>
-            <button type="submit">Process Image</button>
+
+            <!-- Buttons Container -->
+            <div id="buttons-container">
+                <button type="button" id="undo-button">Undo</button>
+                <button type="button" id="clear-button">Clear Mask</button>
+                <button type="submit">Process Image</button>
+            </div>
         </form>
 
         <div id="output">
             <h2>Result:</h2>
             <div id="loading-spinner">Processing...</div>
-            <img id="result-image" alt="Inpainting Result" style="display:none; max-width: 100%;">
+            <img id="result-image" alt="Inpainting Result" style="display:none;">
         </div>
     </div>
     <script src="static/js/inpainting.js"></script>
