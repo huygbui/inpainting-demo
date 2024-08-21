@@ -196,7 +196,7 @@ class InpaintingApp extends ImageProcessingApp {
         const x = (event.clientX - offsetX) * this.state.scaleFactors.x;
         const y = (event.clientY - offsetY) * this.state.scaleFactors.y;
         this.drawOnCanvas(this.ctx.maskCtx, x, y, "white");
-        this.drawOnCanvas(this.ctx.imageCtx, x, y, "fuchsia", "screen");
+        this.drawOnCanvas(this.ctx.imageCtx, x, y, "#4CAF50", "darken");
     }
 
     draw(event) {

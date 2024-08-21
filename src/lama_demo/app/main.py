@@ -4,7 +4,7 @@ from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 
-from .endpoints.inpainting import router as inpainting_router
+from .routers.inpainting import router as inpainting_router
 
 app = FastAPI()
 
