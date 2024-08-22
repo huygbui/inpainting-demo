@@ -15,7 +15,7 @@ To use this project, you first need to download the required model. Follow these
 2. Download the model using curl:
 
   ```bash
-  curl -LJO https://huggingface.co/smartywu/big-lama/resolve/main/big-lama.zip
+  curl https://github.com/enesmsahin/simple-lama-inpainting/releases/download/v0.1.0/big-lama.pt
   ```
 
 3. Unzip the downloaded model:
