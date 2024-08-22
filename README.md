@@ -18,12 +18,6 @@ To use this project, you first need to download the required model. Follow these
   curl https://github.com/enesmsahin/simple-lama-inpainting/releases/download/v0.1.0/big-lama.pt
   ```
 
-3. Unzip the downloaded model:
-
-  ```bash
-  unzip big-lama.zip
-  ```
-
 ## Installation
 
 To install the required packages, you can use `pip`. First, ensure that you have `pip` and `python` installed.
