@@ -15,7 +15,7 @@ To use this project, you first need to download the required model. Follow these
 2. Download the model using curl:
 
   ```bash
-  curl https://github.com/enesmsahin/simple-lama-inpainting/releases/download/v0.1.0/big-lama.pt
+  curl -LJO https://github.com/enesmsahin/simple-lama-inpainting/releases/download/v0.1.0/big-lama.pt
   ```
 
 ## Installation
@@ -24,7 +24,7 @@ To install the required packages, you can use `pip`. First, ensure that you have
 Navigate to the root directory of your project where `pyproject.toml` is located and run:
   
   ```bash
-  unzip big-lama.zip
+  pip install .
   ```
 
 ## Running the Application
