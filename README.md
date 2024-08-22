@@ -33,7 +33,3 @@ To run the application, use uvicorn to start the server. Run the following comma
 
    ```bash
    uvicorn scr.lama-demo.app.main:app --reload
-
-
-
-
