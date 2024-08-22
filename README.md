@@ -7,6 +7,7 @@ To use this project, you first need to download the required model. Follow these
 1. Create a directory for the model and navigate to it:
 
   ```bash
+  cd inpaiting-demo
   mkdir models
   cd models
   ```
