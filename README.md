@@ -19,3 +19,11 @@ To use this project, you first need to download the required model. Follow these
 
    ```bash
    unzip big-lama.zip
+
+## Installation
+
+To install the required packages, you can use `pip`. First, ensure that you have `pip` and `python` installed.
+Navigate to the root directory of your project where `pyproject.toml` is located and run:
+
+```bash
+pip install .
