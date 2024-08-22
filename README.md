@@ -20,11 +20,12 @@ To use this project, you first need to download the required model. Follow these
 
 ## Installation
 
-To install the required packages, you can use `pip`. First, ensure that you have `pip` and `python` installed.
-Navigate to the root directory of your project where `pyproject.toml` is located and run:
+To install the required packages, you can create a virtual environment and install the necessary dependencies from requirements.txt
   
   ```bash
-  pip install .
+  virtualenv venv
+  source venv/bin/activate
+  pip install -r requirements.txt
   ```
 
 ## Running the Application
