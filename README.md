@@ -32,4 +32,4 @@ Navigate to the root directory of your project where `pyproject.toml` is located
 To run the application, use uvicorn to start the server. Run the following command:
 
    ```bash
-   uvicorn scr.lama-demo.app.main:app --reload
+   uvicorn scr.lama_demo.app.main:app --reload
